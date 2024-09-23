@@ -1,20 +1,22 @@
 # SQL Painting Project
 
-This project involves analyzing a dataset related to paintings, artists, museums, and various attributes associated with them using SQL queries.
+This project focuses on analyzing a dataset that includes information about paintings, artists, museums, and their associated attributes, utilizing SQL queries for data exploration and insights.
 
 ## Dataset Overview
 
 The dataset includes the following tables:
 
-- `artist`: Contains information about artists.
-- `canvas_size`: Provides details about different canvas sizes.
-- `image_link`: Stores links to images of paintings.
-- `museum`: Holds information about museums.
-- `museum_hours`: Contains museum opening hours.
-- `subject`: Contains subjects of paintings.
-- `work`: Stores details about paintings.
-- `product_size`: Provides details about product sizes associated with paintings.
-- 
+Here’s a more concise version:
+
+- **`artist`**: Stores artist details, including name, birth/death dates, nationality, and biographical information.
+- **`canvas_size`**: Specifies canvas dimensions, including height, width, and unit measurements.
+- **`image_link`**: Contains URLs or file paths to digital images of the paintings, with relevant metadata.
+- **`museum`**: Includes information about museums, such as name, location, and notable collections or exhibitions.
+- **`museum_hours`**: Lists museum opening/closing hours, including holiday or seasonal schedules.
+- **`subject`**: Categorizes the themes or subjects of paintings (e.g., portraits, landscapes, abstract, etc.).
+- **`work`**: Stores details about paintings, such as title, year, artist, canvas size, and medium.
+- **`product_size`**: Provides dimensions for products associated with paintings (e.g., prints, framed versions).
+
 ## Exploring the dataset 
 
 ```sql
